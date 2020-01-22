@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GarOOPaWS",
+            "request": "launch",
+            "mainClass": "com.bcopstein.interfaces.WebService.GarOOPaWS",
+            "projectName": "ExpressionCalculator"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CidadeTest",
+            "request": "launch",
+            "mainClass": "com.bcopstein.CidadeTest",
+            "projectName": "ExpressionCalculator"
+        }
+    ]
+}
