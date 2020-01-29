@@ -54,6 +54,6 @@ public class ClienteFachadaRemota {
 
     @GetMapping("/recuperaTodosVeiculos")
     public List<Veiculo> getTodosVeiculos(@RequestParam String marca){
-        return repositorioVeiculo.findByMarca(marca);
+        return repositorioVeiculo.findByMarca(marca); // BUGFIX
     }
 }
